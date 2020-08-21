@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+}
+function createNewCheckbox(){
+    var checkbox = document.createElement('input'); 
+    checkbox.type= 'checkbox';
+    checkbox.name = name;
+    checkbox.id = id;
+    return checkbox;
+}
+</script>
+</body>
+</html>
+
+
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "checkbox");
+    x.setAttribute("value", "abc");
+    x.setAttribute("name", "xyz");
+
+    document.body.appendChild(x)
